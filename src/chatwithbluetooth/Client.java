@@ -6,8 +6,8 @@ import java.io.*;
 import java.util.*;
 
 public class Client {
-    //private static final UUID MY_UUID = UUID.randomUUID(); // استفاده از UUID تصادفی
-    private static final String SERVER_URL = "btspp://001122334455:1"; // آدرس بلوتوث سرور را جایگزین کنید
+    private static final UUID MY_UUID = UUID.randomUUID();
+    private static final String SERVER_URL = "btspp://001122334455:1";
 
     public static void main(String[] args) {
         try {
