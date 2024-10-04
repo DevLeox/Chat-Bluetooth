@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.UUID;
 
 public class Server {
-    private static final UUID MY_UUID = UUID.randomUUID(); // استفاده از UUID تصادفی
+    private static final UUID MY_UUID = UUID.randomUUID();
     private static final String CONNECTION_URL = "btspp://localhost:" + MY_UUID + ";name=BluetoothChat";
 
     public static void main(String[] args) {
